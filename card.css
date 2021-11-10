@@ -1,14 +1,14 @@
-body /* anything applied within this block will apply to the body of the html doc*/
+body /* anything applied within this block will apply to the body of the html doc */
 {
     background-color: #ccc;
     font-family: Helvetica, sans-serif;
     color: #222;
-    margin-top: 100px; /*brings sown the avatar pic so it can be seen */
+    margin-top: 100px; /*brings down the avatar pic so it can be seen */
 }
 
 img
 {
-    width: 100%; /*all images 100% px */
+    width: 100%; /* all images scale with the size of the browser */
 }
 
 h1
@@ -22,18 +22,17 @@ h2
     font-weight: 100;
 }
 
-.card
-{
+.card {
     background-color: #f3f3f3;
     border-radius: 15px; /* determine what our rounded corners look like */
     margin: 0 auto; /* easiest way to center the design */
-    width: 400px;
-    text-align: center; /* moves h1 and h2 to center*/
+    width: 400px; /* easiest way to center the design */
+    text-align: center; /* moves h1 and h2 to center */
     box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
     border: 2px solid #aaa;
 }
 
-    .card .avatar /* designing the avatar class*/ 
+    .card .avatar /* designing the avatar class */ 
     {
         box-shadow: rgba(0,0,0, 0.1) 0 10px 10px;
         width: 100px;
@@ -52,7 +51,7 @@ h2
 {
     width: 30px;
     display: inline-block; /* changes layout of icons from block item to inline block item */
-    padding: 20px 10px; /* top-bottom 20, left right 10*/
+    padding: 20px 10px; /* top-bottom 20, left right 10 */
 }
 
 .contacts li a img:hover /*when hovering over contacts it changes the opacity */
